@@ -1,0 +1,18 @@
+{
+    "name": null,
+    "input_variables": [
+        "document_text",
+        "domain",
+        "length_input",
+        "style_input"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\nPlease summarize the document of domain \"{domain}\" with the following specifications:\nExplanation Style: {style_input}  \nExplanation Length: {length_input}  \nDocument Content: {document_text}\nInstructions:\n- Include important concepts\n- Explain equations simply if present\n- Use analogies where helpful\n- If information is missing, say so instead of guessing\n",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}

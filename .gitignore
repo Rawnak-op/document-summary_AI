@@ -1,0 +1,74 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+/dist/
+/build/
+.eggs/
+.python-version
+
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
+.env/
+.pip-wheel-metadata/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs and reports
+*.log
+*.csv
+*.dat
+*.out
+*.err
+*.prof
+coverage.xml
+htmlcov/
+.nox/
+.pytest_cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# LangChain / model artifacts
+models/
+checkpoints/
+outputs/
+data/
+logs/
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.h5
+*.msgpack
+
+# Environment files
+.env
+.env.*
+
+# Local project files
+.local/
+
+# Generated metadata
+*.lock
+
+# Ignore secrets and keys
+*.pem
+*.key
+*.crt
